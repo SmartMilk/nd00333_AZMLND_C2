@@ -76,13 +76,15 @@ The endpoint undergoes some additional testing to prove that the API can handle 
 
 ### Pipeline Endpoints
 
-To automate the training of the bankmarketing dataset for future automation, a pipeline is created and submitted as an endpoint using an Azure Jupyter notebook script. The following screenshots show the pipeline being created, scheduled with the RunDetails Widget, and deposited as an active endpoint in Azure respectively.
+To automate the training of the bankmarketing dataset for future automation, a pipeline is created and submitted as an endpoint using an Azure Jupyter notebook script. The following screenshots show the pipeline being created, scheduled with the RunDetails Widget, deposited as an active endpoint, and proof that the REST endpoint is active respectively. 
 
 ![Pipeline-creation](https://github.com/SmartMilk/nd00333_AZMLND_C2/blob/master/starter_files/project_images/pipeline_creation_proof.jpg)
 
 ![Pipeline-widget](https://github.com/SmartMilk/nd00333_AZMLND_C2/blob/master/starter_files/project_images/pipeline_rundetails_widget_proof.jpg)
 
 ![Pipeline-endpoint](https://github.com/SmartMilk/nd00333_AZMLND_C2/blob/master/starter_files/project_images/pipeline_endpoint_active_proof.jpg)
+
+![Pipeline-overview](https://github.com/SmartMilk/nd00333_AZMLND_C2/blob/master/starter_files/project_images/published_pipeline_overview_proof.jpg)
 
 ## Screen Recording
 [Click this link to go to youtube video of the screencast showcase for this project.](https://www.youtube.com/watch?v=sMb0tTM2qJw)
