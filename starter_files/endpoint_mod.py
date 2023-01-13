@@ -8,9 +8,9 @@ scoring_uri = 'http://d270fb79-4abf-40e0-acaf-f7e8293e6ae5.southcentralus.azurec
 key = 'K53uvT3IjeY1GSav0VzjRCeABuvmhoKH'
 
 # Two sets of data to score, so we get two results back
-data = {"data":
-        [
-          {
+data = {"Inputs": {
+         "data": [
+           {
             "age": 17,
             "campaign": 1,
             "cons.conf.idx": -46.2,
@@ -56,6 +56,7 @@ data = {"data":
           },
       ]
     }
+   }
 # Convert to JSON string
 input_data = json.dumps(data)
 with open("data.json", "w") as _f:
